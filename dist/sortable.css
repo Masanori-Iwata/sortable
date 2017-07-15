@@ -20,6 +20,9 @@
   -o-transition: -o-transform 150ms ease-in-out;
   transition: transform 150ms ease-in-out;
 }
+.sortable li.draggable:hover {
+  cursor: move;
+}
 .sortable li.dragging {
   position: relative;
   z-index: 10;

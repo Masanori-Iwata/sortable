@@ -24,6 +24,14 @@
               transition: transform 150ms ease-in-out;
     }
 
+    &.draggable {
+
+      &:hover {
+        cursor: move;
+      }
+
+    }
+
     &.dragging {
       position: relative;
       z-index: 10;
